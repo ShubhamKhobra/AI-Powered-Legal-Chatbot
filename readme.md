@@ -12,8 +12,11 @@ This project implements an **end-to-end RAG pipeline** that:
 - Splits them into semantic chunks for retrieval.
 - Generates embeddings and stores them in a **FAISS** vector database.
 - Retrieves top-matching chunks for a query.
-- Uses **GPT-3.5/4** (via LangChain) to generate grounded, streamed answers.
+- Uses **GPT-3.5-turbo** (via LangChain) to generate grounded, streamed answers.
 - Displays responses in a **Streamlit** chatbot interface.
 
+## 🎥 Demo
+
+![AI-Powered Legal Chatbot Demo](demo/demo.gif)
 
 
